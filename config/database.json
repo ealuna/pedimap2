@@ -1,0 +1,44 @@
+{
+    "ORIUNDA": {
+        "host": "192.168.1.154",
+        "dialect": "mssql",
+        "database": "PEDIMAP_ORIUNDA",
+        "username": "systerra",
+        "password": "2345",
+        "port": 1433,
+        "operatorsAliases": false,
+        "pool": {
+            "max": 5,
+            "min": 0,
+            "idle": 5000
+        }
+    },
+    "TERRANORTE": {
+        "host": "192.168.1.154",
+        "dialect": "mssql",
+        "database": "PEDIMAP_TERRANORTE",
+        "username": "systerra",
+        "password": "2345",
+        "port": 1433,
+        "operatorsAliases": false,
+        "pool": {
+            "max": 5,
+            "min": 0,
+            "idle": 5000
+        }
+    },
+    "USUARIOS": {
+        "host": "192.168.1.154",
+        "dialect": "mssql",
+        "database": "PEDIMAP_USERS",
+        "username": "systerra",
+        "password": "2345",
+        "port": 1433,
+        "operatorsAliases": false,
+        "pool": {
+            "max": 5,
+            "min": 0,
+            "idle": 5000
+        }
+    }
+}

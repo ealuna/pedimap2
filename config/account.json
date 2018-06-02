@@ -1,0 +1,36 @@
+{
+  "TERRANORTE": {
+    "method": "POST",
+    "uri": "http://monitoreo.gps.esinergy.net:8080/terranorte/Track",
+    "qs": {
+      "lfid": "default"
+    },
+    "headers": {
+      "Content-Type": "application/x-www-form-urlencoded",
+      "Cache-Control": "no-cache"
+    },
+    "formData": {
+      "account": "terranorte",
+      "user": "sistemas",
+      "password": "terranorte123"
+    },
+    "timeout": 3000
+  },
+  "ORIUNDA": {
+    "method": "POST",
+    "uri": "http://comercial.esinergy.com:8080/geobox/Track",
+    "qs": {
+      "lfid": "default"
+    },
+    "headers": {
+      "Content-Type": "application/x-www-form-urlencoded",
+      "Cache-Control": "no-cache"
+    },
+    "formData": {
+      "account": "oriunda",
+      "user": "sistemas",
+      "password": "oriunda123"
+    },
+    "timeout": 3000
+  }
+}

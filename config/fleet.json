@@ -1,0 +1,34 @@
+{
+  "TERRANORTE": {
+    "method": "GET",
+    "uri": "http://monitoreo.gps.esinergy.net:8080/terranorte/Track",
+    "qs": {
+      "page": "map.fleet",
+      "page_cmd": "mapupd",
+      "date_fr": "",
+      "date_tz": "GMT-05:00",
+      "group": "all",
+      "limType": "last"
+    },
+    "agentOptions": {
+      "secureProtocol": "SSLv3_method"
+    },
+    "timeout": 3000
+  },
+  "ORIUNDA": {
+    "method": "GET",
+    "uri": "http://comercial.esinergy.com:8080/geobox/Track",
+    "qs": {
+      "page": "map.fleet",
+      "page_cmd": "mapupd",
+      "date_fr": "",
+      "date_tz": "GMT-05:00",
+      "group": "all",
+      "limType": "last"
+    },
+    "agentOptions": {
+      "secureProtocol": "SSLv3_method"
+    },
+    "timeout": 3000
+  }
+}
